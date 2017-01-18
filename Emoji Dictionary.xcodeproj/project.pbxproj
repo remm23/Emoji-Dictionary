@@ -12,6 +12,7 @@
 		CA0774011E2FAA40000C27AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0773FF1E2FAA40000C27AB /* Main.storyboard */; };
 		CA0774031E2FAA40000C27AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0774021E2FAA40000C27AB /* Assets.xcassets */; };
 		CA0774061E2FAA40000C27AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0774041E2FAA40000C27AB /* LaunchScreen.storyboard */; };
+		CA07740E1E3014DC000C27AB /* EmojiArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA07740D1E3014DC000C27AB /* EmojiArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CA0774021E2FAA40000C27AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA0774051E2FAA40000C27AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA0774071E2FAA40000C27AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA07740D1E3014DC000C27AB /* EmojiArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CA0773FB1E2FAA40000C27AB /* AppDelegate.swift */,
 				CA0773FD1E2FAA40000C27AB /* ViewController.swift */,
+				CA07740D1E3014DC000C27AB /* EmojiArray.swift */,
 				CA0773FF1E2FAA40000C27AB /* Main.storyboard */,
 				CA0774021E2FAA40000C27AB /* Assets.xcassets */,
 				CA0774041E2FAA40000C27AB /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA07740E1E3014DC000C27AB /* EmojiArray.swift in Sources */,
 				CA0773FE1E2FAA40000C27AB /* ViewController.swift in Sources */,
 				CA0773FC1E2FAA40000C27AB /* AppDelegate.swift in Sources */,
 			);
