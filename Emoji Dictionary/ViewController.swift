@@ -33,6 +33,17 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         return emojis.count
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+        let emoji = emojis[indexPath.row]
+        performSegue(withIdentifier: "emojiSegue", sender: emoji)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let emojiVC = segue.destination as! EmojiViewController
+        emojiVC.emoji = sender as! String
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
